@@ -1,0 +1,144 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+.header{
+width: 100%;
+height: 100px;
+border: 1px solid black;
+}
+#spotifyimage{
+  width: 245px;
+      margin-top: 10px;
+      margin-left: 26px;
+}
+.anchorcontainer{
+  font-size: 24px;
+    font-family: times new roman;
+    word-spacing: 28px;
+    color: grey;
+    position: absolute;
+    right: 59px;
+    top: 43px;
+}
+
+.largecenter {
+  background-image: url("../images/landing.jpg");
+  background-size: 100%;
+  border: 1px solid black;
+  width: 100%;
+  height:1000px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.smallcenter{
+width: 60%;
+/*height: 30%;*/
+text-align: center;
+}
+.smallcenter h1{
+  color: #FFF;
+    font-size: 85px;
+}
+.smallcenter p{
+  color: #FFF;
+    font-size: 33px;
+}
+.footer{
+width: 100%;
+height: 525px;
+border: 1px solid black;
+}
+.h3container{
+  margin-top: 45px;
+margin-bottom: 77px;
+}
+.h3container h3{
+  font-size: 43px;
+      border-bottom: 4px solid #00B172;
+      display: inline;/*this is so the line doesn't span all the way across the entire div*/
+      margin-left: 512px;
+}
+.songscontainer{
+  width: 33%;
+  /*height: 329px;*/
+  /*border: 1px solid black;*/
+  float: left;
+}
+#songsimage{
+  display: block;
+  width: 145px;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 42px;
+}
+
+.musiccontainer{
+  width: 33%;
+  /*height: 329px;*/
+  /*border: 1px solid black;*/
+  float: left;
+}
+#soundimage{
+  display: block;
+  width: 145px;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 42px;
+}
+
+.streamcontainer{
+  width: 33%;
+  /*height: 329px;*/
+  /*border: 1px solid black;*/
+  float: left;
+}
+#phonesimage{
+  display: block;
+  width: 145px;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 42px;
+}
+#millions{
+    color: #00B172;
+    font-size: 29px;
+    text-align: center;
+}
+#hdmusic{
+    color: #00B172;
+    font-size: 29px;
+    text-align: center;
+    margin-top: 49px;/*since it didn't align with other two h3s well*/
+
+}
+#stream{
+  color: #00B172;
+  font-size: 29px;
+  text-align: center;
+  margin-top: 37px;
+}
+.songscontainer p{
+  text-align: center;
+    font-size: 24px;
+    font-family: times new roman;
+    color: grey;
+}
+.musiccontainer p{
+  text-align: center;
+    font-size: 24px;
+    font-family: times new roman;
+    color: grey;
+}
+.streamcontainer p{
+  text-align: center;
+    font-size: 24px;
+    font-family: times new roman;
+    color: grey;
+}
